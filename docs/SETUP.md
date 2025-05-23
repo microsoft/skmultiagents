@@ -5,7 +5,7 @@
 2. Click on the "Create new" button on the top-right of the screen
 3. Give your project a name and expand the "Advanced Options". Verify the Subscription, Resource Group (create a new one to avoid conflicts with previous library versions), Azure AI Foundry resource, and the Region.
 
-![Azure AI Foundry portal screenshot Create Project](https://github.com/commercial-software-engineering/skmultiagents/blob/main/docs/AzureAIFoundryCreateProject.jpg)
+![Azure AI Foundry portal screenshot Create Project](https://github.com/microsoft/skmultiagents/blob/main/docs/AzureAIFoundryCreateProject.jpg)
 
 * Notice that Azure AI Foundry projects can now be created without the need to instantiate an Azure AI Hub. Hub-less projects (the ones created from the Foundry portal by default) are assigned to an Azure AI Foundry resource that can be found in the Azure Portal Resources.
 
@@ -23,13 +23,13 @@ The agents in this project will require access to a Large Language Model (LLM). 
 1. Login to the Azure Portal under the same subscription where the Azure AI Foundry project was created. 
 2. Under the same resource group used to create the Azure AI Foundry project, add a Storage account
 
-![Azure Portal Create Storage Account](https://github.com/commercial-software-engineering/skmultiagents/blob/main/docs/AzurePortalCreateStorageAcct.jpg){data-source-line=16}
+![Azure Portal Create Storage Account](https://github.com/microsoft/skmultiagents/blob/main/docs/AzurePortalCreateStorageAcct.jpg){data-source-line=16}
 
 * Notice that a default Azure Storage Account for the Foundry project is not automatically created for you anymore.
 
 3. Once the storage account has been created, navigate to it and Expand the "Data Storage" in the side menu. Click on "Containers"
 
-![Azure Portal Create Storage Account Container](https://github.com/commercial-software-engineering/skmultiagents/blob/main/docs/AzurePortalCreateContainer.jpg){data-source-line=16}
+![Azure Portal Create Storage Account Container](https://github.com/microsoft/skmultiagents/blob/main/docs/AzurePortalCreateContainer.jpg){data-source-line=16}
 
 4. Create a new container named "healthplan"
 
