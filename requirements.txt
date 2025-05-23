@@ -1,0 +1,5 @@
+semantic-kernel==1.30.0
+azure-ai-projects==1.0.0b11
+azure-monitor-opentelemetry-exporter==1.0.0b36
+azure-identity==1.23.0
+azure-core==1.34.0
