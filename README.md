@@ -4,7 +4,7 @@
 
 This repository is based on the work of luckypamula for the [Azure AI Agents Labs](https://github.com/Azure/azure-ai-agents-labs) refactored to be used with the Python libraries announced during BUILD 2025.
 
-Please note that version of azure-ai-projects 1.0.0b11 introduced breaking changes using Hub based Foundry projects. This repository assumes that hub-less projects are used. More information about project types can be found [here](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry#which-type-of-project-do-i-need)
+Please note that version of azure-ai-projects 1.0.0b11 introduced breaking changes using hub-based Azure AI Foundry projects. This repository assumes that hub-less projects are used. More information about Azure AI Foundry project types can be found [here](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry#which-type-of-project-do-i-need)
 
 ![Azure AI Foundry portal project overview screenshot after 1.0.0b11](https://github.com/microsoft/skmultiagents/blob/main/docs/AzureAIFoundryPortalafter100b11.jpg)
 
