@@ -35,11 +35,6 @@ class SearchAgent:
             DefaultAzureCredential()
             )
 
-        #agents_client = AgentsClient(
-        #    os.environ["AIPROJECT_ENDPOINT"],
-        #    DefaultAzureCredential()
-        #    )
-        
         # Iterate through the connections in your project and get the connection ID of the Azure AI Search connection.
         conn_list = project_client.connections.list()
         conn_id = ""
