@@ -41,7 +41,6 @@ import ValidationAgent
 load_dotenv()
 
 AppInsights_connection_string = os.environ["AZURE_INSIGHTS_CONNECTION_STRING"]
-# Logging Goes here
 
 # Create a resource to represent the service/sample
 resource = Resource.create({ResourceAttributes.SERVICE_NAME: "MultiAgentTracing"})
@@ -140,7 +139,6 @@ async def main():
 
     # Create the Orchestrator Agent that will call the Search and Report agents to create the report
     agent = ChatCompletionAgent(
-        #service_id="orchestrator_agent",
         kernel=kernel, # The Kernel that contains the services and plugins
         name="OrchestratorAgent",
         instructions=f"""

@@ -59,7 +59,7 @@ class ValidationAgent:
             print(f"Run failed: {run.last_error}")
 
         # Delete the agent when it's done running
-        # project_client.agents.delete_agent(validation_agent.id)
+        project_client.agents.delete_agent(validation_agent.id)
 
         # Get the last message from the thread
         last_msg = project_client.agents.messages.get_last_message_text_by_role(thread_id=thread.id,role=MessageRole.AGENT)
